@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-// import DOMPurify from "dompurify";
 
 import "./Coin.css";
 
@@ -157,18 +156,7 @@ const Coin = () => {
           </div>
         </div>
 
-        <div className="content">
-          <div className="about">
-            <h3>About</h3>
-            {/* <p
-              dangerouslySetInnerHTML={{
-                __html: DOMPurify.sanitize(
-                  coin.description ? coin.description.en : ""
-                ),
-              }}
-            ></p> */}
-          </div>
-        </div>
+        
       </div>
     </div>
   );

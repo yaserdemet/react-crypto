@@ -28,10 +28,12 @@
     border-radius: 8px;
     margin: 2rem 1rem;
     padding: .7rem 1rem;
+    color : white;
+    text-decoration: none;
 }
 
 .coin-row:hover {
-    transform: scale(1.04);
+    transform: scale(1.01);
     transition: .3s ease-in-out;
     cursor: pointer;
 }
