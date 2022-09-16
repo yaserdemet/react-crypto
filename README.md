@@ -7,7 +7,7 @@
 
 - This project aims to get Crypto Currency Information from public api
 
-### At the end of the project, following topics are to be covered;
+### In this project what i have used;
 
 📌 Props and State Logic
 
