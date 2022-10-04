@@ -3,9 +3,14 @@ import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
 import "./Coin.css";
+import useFetch from "../hooks/useFetch";
 
 const Coin = () => {
   const params = useParams();
+  // const [coin , setCoin] = useFetch(params.coinId)
+  //? custom hook for fetching data
+
+
   const [coin, setCoin] = useState({});
 
   const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`;
